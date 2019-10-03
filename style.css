@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Helvetica, fantasy;
+  margin: 15px 20px;
+}
+
+form
+{
+  border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #FFD2D2;
+  padding: 20px;
+  background: #FFF4F4;
+  box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+h1
+{
+  font-family: fantasy;
+  font-size: 65px;
+  color: #008080;
+}
+
+li {
+  border: 1px solid #999;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;    
+}
+
+input
+{
+  font-family: Helvetica, sans-serif;
+  color: #008080;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 5px;
+}
+
+#addbutton:hover {
+  background: #82CACD;
+  cursor: pointer;
+}
+
+#addbutton
+{
+  font-family: fantasy;
+  font-size: 30px;
+  background: pink;
+  width: 30%;
+  height: 50px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+p{
+  font-family: "Homer Simpson", cursive;
+  color: #008080;
+}
+
+.container 
+{
+  border: 1px solid #FFD2D2;
+  max-width: 40%;
+  text-align: center;
+  padding: 18px;
+  box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+#crearlista > li 
+{
+  border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #FFD2D2;
+  max-width: 200px;
+  padding: 5px;
+  background: #FFF4F4;
+  box-shadow: inset 0px 0px 15px #FFE5E5;
+
+}
+
+.check-button, .delete-button
+{
+  background: pink;
+  width: 50%;
+  height: 30px;
+  border-radius: 6px;
+  color: black;
+}
+
+.check-button:hover,.delete-button:hover
+{
+  background: #82CACD;
+  cursor: pointer;
+  text-decoration: none;
+}
